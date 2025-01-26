@@ -32,12 +32,4 @@ p {
   font-weight: 400; /* Regular */
 }
 
-/* To hide scrollbar in Tailwind */
-.scrollbar-hide {
-  -ms-overflow-style: none;  /* for Internet Explorer, Edge */
-  scrollbar-width: none;  /* for Firefox */
-}
 
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;  /* for Chrome, Safari, and Opera */
-}
