@@ -17,9 +17,7 @@ export default function Header() {
   const router = useRouter();
 
   const { cartCount = 0 } = useShoppingCart();
-  const [isAuthenticated, setIsAuthenticated] = useState(false);  // User authentication state
-  const [showPopup, setShowPopup] = useState(false);  // To show/hide sign-out popup
-  const [user, setUser] = useState<any>(null);  // Store user data
+  
 
   const navItems = [
     { label: "Home", href: "/" },
